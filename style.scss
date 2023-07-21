@@ -1,0 +1,43 @@
+/** @format */
+
+/* Variables */
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+
+/* Typography */
+body {
+	font-size: 15px;
+	background: $grayish-blue;
+}
+p {
+	font-family: "Outfit";
+	font-weight: 400;
+}
+.p--bold {
+	font-weight: 700;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	a {
+		color: hsl(228, 45%, 44%);
+	}
+}
+/* Body styling */
+body {
+	background: $white;
+	height: 100vh;
+}
+main {
+	margin: 0 auto;
+}
+/* QR styling */
+.card {
+	border-radius: 20px;
+	background: $white;
+	.card--shadow {
+		box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	}
+}
